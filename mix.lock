@@ -1,7 +1,7 @@
-%{"decimal": {:hex, :decimal, "1.1.0"},
-  "earmark": {:hex, :earmark, "0.1.17"},
-  "ecto": {:hex, :ecto, "1.0.2"},
-  "eh": {:hex, :eh, "0.2.0"},
-  "ex_doc": {:hex, :ex_doc, "0.8.4"},
-  "poolboy": {:hex, :poolboy, "1.5.1"},
-  "postgrex": {:hex, :postgrex, "0.9.1"}}
+%{"decimal": {:hex, :decimal, "1.1.0", "3333732f17a90ff3057d7ab8c65f0930ca2d67e15cca812a91ead5633ed472fe", [:mix], []},
+  "earmark": {:hex, :earmark, "0.1.17", "a2269e72ff85501bdb58c2de9edc0a9a17a4be2757883eed1f601b30494ed2bf", [:mix], []},
+  "ecto": {:hex, :ecto, "1.0.2", "fafd813f529f56a56b2611e56cf5dd65722b896fff3145441a7ea9387376c8a3", [:mix], [{:sbroker, "~> 0.7", [hex: :sbroker, optional: true]}, {:postgrex, "~> 0.9.1", [hex: :postgrex, optional: true]}, {:poolboy, "~> 1.4", [hex: :poolboy, optional: false]}, {:poison, "~> 1.0", [hex: :poison, optional: true]}, {:mariaex, "~> 0.4.1", [hex: :mariaex, optional: true]}, {:decimal, "~> 1.0", [hex: :decimal, optional: false]}]},
+  "eh": {:hex, :eh, "0.2.0", "495ebfd45e7f5f50307c528bb710f7642eea473d1f3583efbd18a2b8be28c611", [:mix], []},
+  "ex_doc": {:hex, :ex_doc, "0.8.4", "c74a30b09627ff22a2bb7f75d3b75dec3aedb2bd434bb3009a73a40425c2315d", [:mix], [{:earmark, "~> 0.1.17 or ~> 0.2", [hex: :earmark, optional: true]}]},
+  "poolboy": {:hex, :poolboy, "1.5.1", "6b46163901cfd0a1b43d692657ed9d7e599853b3b21b95ae5ae0a777cf9b6ca8", [:rebar], []},
+  "postgrex": {:hex, :postgrex, "0.9.1", "a7c9d4b3cc70b4b8c73190e0d462e057e22e1597954deb422fc45d5183463d61", [:mix], [{:decimal, "~> 1.0", [hex: :decimal, optional: false]}]}}

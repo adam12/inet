@@ -46,7 +46,7 @@ defmodule Inet.Mixfile do
   defp deps do
     [
       {:postgrex, "~> 0.9"},
-      {:ecto, "~> 1.0"},
+      {:ecto, ">= 1.0.0"},
       {:eh, "~> 0.2", only: :dev},
       {:ex_doc, "~> 0.8", only: :dev},
       {:earmark, ">= 0.0.0", only: :dev}
